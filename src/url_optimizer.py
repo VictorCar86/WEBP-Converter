@@ -9,7 +9,7 @@ from .utils import setup_directories, convert_to_rgb
 def optimize_url_images(url_file_path, quality=80):
     """
     Reads image URLs from a JSON file, downloads them, optimizes them, and saves as WebP files
-    in the 'out' directory.
+    in the 'output' directory.
 
     Args:
         url_file_path (str): Path to the JSON file containing image URLs

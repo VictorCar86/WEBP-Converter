@@ -169,3 +169,11 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+### Local files ###
+# Local configuration files
+.env
+
+# Input images
+input/*
+output/*

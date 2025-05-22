@@ -9,8 +9,8 @@ def setup_directories():
         tuple: (input_directory, output_directory)
     """
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    input_directory = os.path.join(base_dir, "input_images")
-    output_directory = os.path.join(base_dir, "out")
+    input_directory = os.path.join(base_dir, "input")
+    output_directory = os.path.join(base_dir, "output")
 
     # Create output directory if it doesn't exist
     os.makedirs(output_directory, exist_ok=True)

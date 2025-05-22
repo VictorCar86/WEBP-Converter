@@ -1,9 +1,0 @@
-// JSON Strucure sample:
-// [ { "filename": "FILENAME", "url": "YOUR_URL_HERE" } ]
-
-// [
-//   {
-//     "filename": "placeholder",
-//     "url": "https://content.cdn.com/v/91254146839119862"
-//   }
-// ]
