@@ -1,65 +1,8 @@
 // JSON Strucure sample:
 // [ { "filename": "FILENAME", "url": "YOUR_URL_HERE" } ]
-
 [
-  // {
-  //   "filename": "banner_invertir_exterior",
-  //   "url": "https://api.prodesa.com/uploads/images/group-547-64e66573cccfd219907258-65131109b5779653010891-6545458d851e9254819552.png"
-  // },
-  // {
-  //   "filename": "banner_invertir_exterior_mobile",
-  //   "url": "https://api.prodesa.com/uploads/images/banner-invertir-desde-el-exterior-6654ab1cf0428521723596.png"
-  // },
   {
-    "filename": "proyecto-de-vivienda-en-cartagena-serena-del-mar-castelo-banner-1-66df235d103b4832379244",
-    "url": "https://api.prodesa.com/uploads/images/proyecto-de-vivienda-en-cartagena-serena-del-mar-castelo-banner-1-66df235d103b4832379244.jpg"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/prodesa-copacabana-fachada-carrera-29-web-682e46f0b1e25247250730.webp",
-    "filename": "prodesa-copacabana-fachada-carrera-29-web-682e46f0b1e25247250730"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-1-proyecto-de-vivienda-soacha-6765eb5083ea5941362454.jpg",
-    "filename": "banner-1-proyecto-de-vivienda-soacha-6765eb5083ea5941362454"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-lanzamientos-proyecto-de-apartamentos-vis-en-bogota-avenida-colon-6604367823109049439495.jpg",
-    "filename": "banner-lanzamientos-proyecto-de-apartamentos-vis-en-bogota-avenida-colon-6604367823109049439495"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-1-aguila-67fd18fb8ff5b050797200.jpg",
-    "filename": "banner-1-aguila-67fd18fb8ff5b050797200"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-1-proyecto-de-vivienda-girardot-67eaff1dc218b081258408.jpg",
-    "filename": "banner-1-proyecto-de-vivienda-girardot-67eaff1dc218b081258408"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-1-proyecto-de-vivienda-vis-en-cali-agora-66141a40e8d23658936493.jpg",
-    "filename": "banner-1-proyecto-de-vivienda-vis-en-cali-agora-66141a40e8d23658936493"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-principal-proyecto-de-vivienda-en-cartagena-praseo-664539ced5392601187128.jpg",
-    "filename": "banner-principal-proyecto-de-vivienda-en-cartagena-praseo-664539ced5392601187128"
-  },
-  {
-    "filename": "banner-principal-proyecto-de-vivienda-en-cartagena-praseo-664539ced5392601187128",
-    "url": "https://api.prodesa.com/uploads/images/banner-principal-proyecto-de-vivienda-en-cartagena-praseo-664539ced5392601187128.jpg"
-  },
-  {
-    "filename": "banner-1-proyecto-de-vivienda-en-cartagena-strada-66142ced7a7c3198653703",
-    "url": "https://api.prodesa.com/uploads/images/banner-1-proyecto-de-vivienda-en-cartagena-strada-66142ced7a7c3198653703.jpg"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/proyecto-de-vivienda-capriella-banner-1-66df284c0a642714592600.jpg",
-    "filename": "proyecto-de-vivienda-capriella-banner-1-66df284c0a642714592600"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/proyecto-de-vivienda-en-cartagena-serena-del-mar-castelo-banner-1-66df235d103b4832379244.jpg?format=webp",
-    "filename": "proyecto-de-vivienda-en-cartagena-serena-del-mar-castelo-banner-1-66df235d103b4832379244"
-  },
-  {
-    "url": "https://api.prodesa.com/uploads/images/banner-1-proyecto-de-vivienda-vis-en-cali-66141c53d575b828711117.jpg",
-    "filename": "banner-1-proyecto-de-vivienda-vis-en-cali-66141c53d575b828711117"
+    "filename": "",
+    "url": ""
   }
 ]

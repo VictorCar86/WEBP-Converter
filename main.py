@@ -22,12 +22,19 @@ def main():
              "sin preservar la estructura de subdirectorios de 'input'. "
              "Por defecto, se preserva la estructura.",
     )
+    parser.add_argument(
+        "--keep_original",
+        action="store_true",
+        help="Guarda una copia de las imágenes originales descargadas desde URLs antes de la optimización. "
+             "Solo aplica al procesar imágenes desde 'input_url.jsonc'.",
+    )
     args = parser.parse_args()
 
     quality = args.quality
     # Si --flat_output está presente, preserve_structure será False.
     # De lo contrario (comportamiento por defecto), preserve_structure será True.
     preserve_structure_for_local = not args.flat_output
+    keep_original = args.keep_original
 
     # Process local images
     print("Processing local images...")
@@ -38,7 +45,7 @@ def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     url_file_path = os.path.join(base_dir, "input_url.jsonc")
     if os.path.exists(url_file_path):
-        optimize_url_images(url_file_path, quality)
+        optimize_url_images(url_file_path, quality, keep_original=keep_original)
     else:
         print(f"URL file not found: {url_file_path}")
 
